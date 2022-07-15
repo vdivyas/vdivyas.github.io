@@ -12,6 +12,26 @@
 		<meta name="google-site-verification" content="0GO4Vt0UCdi2KAYc9qvw9MoEgOTJGJFsyvjP0xXeml8" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 	</head>
 	<body class="is-preload">
 
@@ -226,23 +246,25 @@ Qualified CBSE-UGC NET November 2017 exam.
 										<li align="justify"><b>[13th July, 2022]:</b> Super happy to give a <b>flash talk</b> to present my paper at the NAACL 2022!</li>	
 									<li align="justify"><b>[31st May, 2022]:</b> Memorable moments
 										<p></p>	
-										<div class="column">
-  <div class="column">
-										<img src="Facebook.jpeg" style="object-fit:contain;
+										<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <img src="Facebook.jpeg" style="object-fit:contain;
             width:40%;
             height:40%;
-														border: solid 1px #CCC"/> </div>
-											<div class="column">
-
-										<img src="Twitter.jpeg" style="object-fit:contain;
+														border: solid 1px #CCC"/>
+  </div>
+  <img src="Twitter.jpeg" style="object-fit:contain;
             width:40%;
             height:40%;
 													       border: solid 1px #CCC"> 
-									
-	<img src="LinkedIn.jpeg" style="object-fit:contain;
+											<img src="LinkedIn.jpeg" style="object-fit:contain;
             width:40%;
             height:40%;
-	  border: solid 1px #CCC"> </div>
+	  border: solid 1px #CCC">
+   
+  </div>
+</div>
+										
 										</li>
 									<li align="justify">
 
