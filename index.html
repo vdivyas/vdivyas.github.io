@@ -29,10 +29,22 @@
 
 				<!-- Nav -->
 				<style>
+    #nav ul {
+        padding-left: 0; /* Ensure no padding on the left side of the <ul> */
+    }
     #nav ul li {
-        margin-left: 0%;
-        margin-right: 0%;
-        margin-bottom: 1px; /* Reduce vertical space between list items */
+        margin-left: 2%; /* Add consistent margin on the left */
+        margin-right: 2%; /* Add consistent margin on the right */
+        margin-bottom: 2px; /* Reduce vertical space between list items */
+    }
+    #nav ul li:first-child {
+        margin-top: 0; /* Remove any top margin for the first item if needed */
+    }
+    #nav ul li a {
+        display: block; /* Make the <a> tag a block element to avoid inline spacing */
+    }
+    #nav ul li a.active {
+        background-color: transparent; /* Remove background color or highlight */
     }
 </style>
 					<nav id="nav">
